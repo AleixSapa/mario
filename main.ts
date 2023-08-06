@@ -52,5 +52,6 @@ Jugador.setPosition(164, 456)
 scene.cameraFollowSprite(Jugador)
 controller.moveSprite(Jugador, 100, 10)
 Jugador.ay = 800
+info.startCountdown(120)
 info.setScore(0)
 info.setLife(3)
